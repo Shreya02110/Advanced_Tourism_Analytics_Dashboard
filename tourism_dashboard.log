@@ -1,0 +1,378 @@
+2026-03-20 15:02:32,022 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5001
+2026-03-20 15:02:32,023 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-03-20 15:02:32,043 - werkzeug - INFO -  * Restarting with stat
+2026-03-20 15:03:01,150 - werkzeug - WARNING -  * Debugger is active!
+2026-03-20 15:03:01,159 - werkzeug - INFO -  * Debugger PIN: 141-012-975
+2026-03-20 15:03:01,313 - __main__ - INFO - Retrieved 5 cities
+2026-03-20 15:03:01,314 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2026 15:03:01] "GET /api/cities HTTP/1.1" 200 -
+2026-03-20 15:03:19,781 - __main__ - INFO - Retrieved 5 cities
+2026-03-20 15:03:19,782 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2026 15:03:19] "GET /api/cities HTTP/1.1" 200 -
+2026-03-20 15:03:19,858 - __main__ - INFO - Using most recent data for Delhi (requested 2026-03-20)
+2026-03-20 15:03:19,864 - __main__ - INFO - Calculated scores for Delhi on 2026-03-20
+2026-03-20 15:03:19,867 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2026 15:03:19] "GET /api/city/Delhi/score?date=2026-03-20 HTTP/1.1" 200 -
+2026-03-20 15:03:20,061 - __main__ - INFO - Retrieved monthly data for Delhi
+2026-03-20 15:03:20,064 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2026 15:03:20] "GET /api/city/Delhi/monthly HTTP/1.1" 200 -
+2026-03-20 15:03:20,226 - __main__ - INFO - Retrieved 3 attractions for Delhi
+2026-03-20 15:03:20,234 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2026 15:03:20] "GET /api/city/Delhi/attractions HTTP/1.1" 200 -
+2026-03-20 15:03:34,825 - __main__ - INFO - Using most recent data for Manali (requested 2026-03-20)
+2026-03-20 15:03:34,826 - __main__ - INFO - Calculated scores for Manali on 2026-03-20
+2026-03-20 15:03:34,827 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2026 15:03:34] "GET /api/city/Manali/score?date=2026-03-20 HTTP/1.1" 200 -
+2026-03-20 15:03:34,854 - __main__ - INFO - Retrieved monthly data for Manali
+2026-03-20 15:03:34,855 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2026 15:03:34] "GET /api/city/Manali/monthly HTTP/1.1" 200 -
+2026-03-20 15:03:34,897 - __main__ - INFO - Retrieved 3 attractions for Manali
+2026-03-20 15:03:34,898 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2026 15:03:34] "GET /api/city/Manali/attractions HTTP/1.1" 200 -
+2026-03-20 15:03:37,928 - __main__ - INFO - Using most recent data for Delhi (requested 2026-03-20)
+2026-03-20 15:03:37,929 - __main__ - INFO - Calculated scores for Delhi on 2026-03-20
+2026-03-20 15:03:37,930 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2026 15:03:37] "GET /api/city/Delhi/score?date=2026-03-20 HTTP/1.1" 200 -
+2026-03-20 15:03:37,956 - __main__ - INFO - Retrieved monthly data for Delhi
+2026-03-20 15:03:37,957 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2026 15:03:37] "GET /api/city/Delhi/monthly HTTP/1.1" 200 -
+2026-03-20 15:03:37,988 - __main__ - INFO - Retrieved 3 attractions for Delhi
+2026-03-20 15:03:37,989 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2026 15:03:37] "GET /api/city/Delhi/attractions HTTP/1.1" 200 -
+2026-03-20 15:03:40,923 - __main__ - INFO - Using most recent data for Mumbai (requested 2026-03-20)
+2026-03-20 15:03:40,924 - __main__ - INFO - Calculated scores for Mumbai on 2026-03-20
+2026-03-20 15:03:40,925 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2026 15:03:40] "GET /api/city/Mumbai/score?date=2026-03-20 HTTP/1.1" 200 -
+2026-03-20 15:03:40,946 - __main__ - INFO - Retrieved monthly data for Mumbai
+2026-03-20 15:03:40,947 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2026 15:03:40] "GET /api/city/Mumbai/monthly HTTP/1.1" 200 -
+2026-03-20 15:03:40,973 - __main__ - INFO - Retrieved 3 attractions for Mumbai
+2026-03-20 15:03:40,974 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2026 15:03:40] "GET /api/city/Mumbai/attractions HTTP/1.1" 200 -
+2026-03-20 15:03:43,681 - __main__ - INFO - Using most recent data for Goa (requested 2026-03-20)
+2026-03-20 15:03:43,685 - __main__ - INFO - Calculated scores for Goa on 2026-03-20
+2026-03-20 15:03:43,687 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2026 15:03:43] "GET /api/city/Goa/score?date=2026-03-20 HTTP/1.1" 200 -
+2026-03-20 15:03:43,714 - __main__ - INFO - Retrieved monthly data for Goa
+2026-03-20 15:03:43,715 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2026 15:03:43] "GET /api/city/Goa/monthly HTTP/1.1" 200 -
+2026-03-20 15:03:43,743 - __main__ - INFO - Retrieved 3 attractions for Goa
+2026-03-20 15:03:43,745 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2026 15:03:43] "GET /api/city/Goa/attractions HTTP/1.1" 200 -
+2026-03-20 15:03:52,693 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2026 15:03:52] "OPTIONS /api/compare HTTP/1.1" 200 -
+2026-03-20 15:03:52,714 - __main__ - INFO - Compared 2 cities
+2026-03-20 15:03:52,715 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2026 15:03:52] "POST /api/compare HTTP/1.1" 200 -
+2026-03-20 15:03:59,379 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2026 15:03:59] "OPTIONS /api/recommendations HTTP/1.1" 200 -
+2026-03-20 15:03:59,384 - __main__ - INFO - Received preferences: {'temp_range': [10, 40], 'max_aqi': 150, 'min_safety': 70}
+2026-03-20 15:03:59,396 - __main__ - INFO - Latest data shape: (5, 9)
+2026-03-20 15:03:59,408 - __main__ - INFO - Latest data:
+      city  temp_max  aqi  safety_score
+47  Mumbai      30.5   80            84
+35  Manali      10.2   22            82
+34     Goa      32.8   40            88
+33   Delhi      22.8  135            76
+59  Jaipur      24.8  120            79
+2026-03-20 15:03:59,413 - __main__ - INFO - Generated 5 recommendations
+2026-03-20 15:03:59,414 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2026 15:03:59] "POST /api/recommendations HTTP/1.1" 200 -
+2026-03-20 15:04:00,656 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2026 15:04:00] "OPTIONS /api/recommendations HTTP/1.1" 200 -
+2026-03-20 15:04:00,668 - __main__ - INFO - Received preferences: {'temp_range': [10, 40], 'max_aqi': 150, 'min_safety': 70}
+2026-03-20 15:04:00,684 - __main__ - INFO - Latest data shape: (5, 9)
+2026-03-20 15:04:00,695 - __main__ - INFO - Latest data:
+      city  temp_max  aqi  safety_score
+47  Mumbai      30.5   80            84
+35  Manali      10.2   22            82
+34     Goa      32.8   40            88
+33   Delhi      22.8  135            76
+59  Jaipur      24.8  120            79
+2026-03-20 15:04:00,709 - __main__ - INFO - Generated 5 recommendations
+2026-03-20 15:04:00,711 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2026 15:04:00] "POST /api/recommendations HTTP/1.1" 200 -
+2026-03-20 15:05:43,681 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2026 15:05:43] "[31m[1mPOST /api/upload/csv HTTP/1.1[0m" 400 -
+2026-03-20 15:07:35,024 - __main__ - INFO - Retrieved 5 cities
+2026-03-20 15:07:35,025 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2026 15:07:35] "GET /api/cities HTTP/1.1" 200 -
+2026-03-20 15:07:35,048 - __main__ - INFO - Using most recent data for Delhi (requested 2026-03-20)
+2026-03-20 15:07:35,049 - __main__ - INFO - Calculated scores for Delhi on 2026-03-20
+2026-03-20 15:07:35,051 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2026 15:07:35] "GET /api/city/Delhi/score?date=2026-03-20 HTTP/1.1" 200 -
+2026-03-20 15:07:35,087 - __main__ - INFO - Retrieved monthly data for Delhi
+2026-03-20 15:07:35,088 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2026 15:07:35] "GET /api/city/Delhi/monthly HTTP/1.1" 200 -
+2026-03-20 15:07:35,156 - __main__ - INFO - Retrieved 3 attractions for Delhi
+2026-03-20 15:07:35,157 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2026 15:07:35] "GET /api/city/Delhi/attractions HTTP/1.1" 200 -
+2026-03-20 18:56:58,644 - __main__ - INFO - Using most recent data for Goa (requested 2026-03-20)
+2026-03-20 18:56:58,737 - __main__ - INFO - Calculated scores for Goa on 2026-03-20
+2026-03-20 18:56:58,802 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2026 18:56:58] "GET /api/city/Goa/score?date=2026-03-20 HTTP/1.1" 200 -
+2026-03-20 18:56:59,432 - __main__ - INFO - Retrieved monthly data for Goa
+2026-03-20 18:56:59,446 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2026 18:56:59] "GET /api/city/Goa/monthly HTTP/1.1" 200 -
+2026-03-20 18:56:59,639 - __main__ - INFO - Retrieved 3 attractions for Goa
+2026-03-20 18:56:59,650 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2026 18:56:59] "GET /api/city/Goa/attractions HTTP/1.1" 200 -
+2026-03-20 18:58:01,903 - __main__ - INFO - Retrieved 5 cities
+2026-03-20 18:58:01,904 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2026 18:58:01] "GET /api/cities HTTP/1.1" 200 -
+2026-03-20 18:58:01,969 - __main__ - INFO - Using most recent data for Delhi (requested 2026-03-20)
+2026-03-20 18:58:01,970 - __main__ - INFO - Calculated scores for Delhi on 2026-03-20
+2026-03-20 18:58:01,971 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2026 18:58:01] "GET /api/city/Delhi/score?date=2026-03-20 HTTP/1.1" 200 -
+2026-03-20 18:58:02,005 - __main__ - INFO - Retrieved monthly data for Delhi
+2026-03-20 18:58:02,061 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2026 18:58:02] "GET /api/city/Delhi/monthly HTTP/1.1" 200 -
+2026-03-20 18:58:02,120 - __main__ - INFO - Retrieved 3 attractions for Delhi
+2026-03-20 18:58:02,121 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2026 18:58:02] "GET /api/city/Delhi/attractions HTTP/1.1" 200 -
+2026-03-20 18:58:22,311 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2026 18:58:22] "OPTIONS /api/recommendations HTTP/1.1" 200 -
+2026-03-20 18:58:22,406 - __main__ - INFO - Received preferences: {'temp_range': [10, 45], 'max_aqi': 150, 'min_safety': 70}
+2026-03-20 18:58:22,726 - __main__ - INFO - Latest data shape: (5, 9)
+2026-03-20 18:58:23,040 - __main__ - INFO - Latest data:
+      city  temp_max  aqi  safety_score
+47  Mumbai      30.5   80            84
+35  Manali      10.2   22            82
+34     Goa      32.8   40            88
+33   Delhi      22.8  135            76
+59  Jaipur      24.8  120            79
+2026-03-20 18:58:23,050 - __main__ - INFO - Generated 5 recommendations
+2026-03-20 18:58:23,052 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2026 18:58:23] "POST /api/recommendations HTTP/1.1" 200 -
+2026-03-23 14:43:44,769 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5001
+2026-03-23 14:43:44,769 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-03-23 14:43:44,772 - werkzeug - INFO -  * Restarting with stat
+2026-03-23 14:44:10,064 - werkzeug - WARNING -  * Debugger is active!
+2026-03-23 14:44:10,074 - werkzeug - INFO -  * Debugger PIN: 141-012-975
+2026-03-23 14:44:16,443 - __main__ - INFO - Retrieved 5 cities
+2026-03-23 14:44:16,453 - werkzeug - INFO - 127.0.0.1 - - [23/Mar/2026 14:44:16] "GET /api/cities HTTP/1.1" 200 -
+2026-03-23 14:44:16,488 - __main__ - INFO - Using most recent data for Delhi (requested 2026-03-23)
+2026-03-23 14:44:16,492 - __main__ - INFO - Calculated scores for Delhi on 2026-03-23
+2026-03-23 14:44:16,494 - werkzeug - INFO - 127.0.0.1 - - [23/Mar/2026 14:44:16] "GET /api/city/Delhi/score?date=2026-03-23 HTTP/1.1" 200 -
+2026-03-23 14:44:16,547 - __main__ - INFO - Retrieved monthly data for Delhi
+2026-03-23 14:44:16,550 - werkzeug - INFO - 127.0.0.1 - - [23/Mar/2026 14:44:16] "GET /api/city/Delhi/monthly HTTP/1.1" 200 -
+2026-03-23 14:44:16,717 - __main__ - INFO - Retrieved 3 attractions for Delhi
+2026-03-23 14:44:16,752 - werkzeug - INFO - 127.0.0.1 - - [23/Mar/2026 14:44:16] "GET /api/city/Delhi/attractions HTTP/1.1" 200 -
+2026-03-23 14:44:29,938 - __main__ - INFO - Using most recent data for Manali (requested 2026-03-23)
+2026-03-23 14:44:29,938 - __main__ - INFO - Calculated scores for Manali on 2026-03-23
+2026-03-23 14:44:29,939 - werkzeug - INFO - 127.0.0.1 - - [23/Mar/2026 14:44:29] "GET /api/city/Manali/score?date=2026-03-23 HTTP/1.1" 200 -
+2026-03-23 14:44:29,962 - __main__ - INFO - Retrieved monthly data for Manali
+2026-03-23 14:44:29,963 - werkzeug - INFO - 127.0.0.1 - - [23/Mar/2026 14:44:29] "GET /api/city/Manali/monthly HTTP/1.1" 200 -
+2026-03-23 14:44:29,997 - __main__ - INFO - Retrieved 3 attractions for Manali
+2026-03-23 14:44:29,998 - werkzeug - INFO - 127.0.0.1 - - [23/Mar/2026 14:44:29] "GET /api/city/Manali/attractions HTTP/1.1" 200 -
+2026-03-23 14:44:43,577 - werkzeug - INFO - 127.0.0.1 - - [23/Mar/2026 14:44:43] "OPTIONS /api/compare HTTP/1.1" 200 -
+2026-03-23 14:44:43,593 - __main__ - INFO - Compared 2 cities
+2026-03-23 14:44:43,594 - werkzeug - INFO - 127.0.0.1 - - [23/Mar/2026 14:44:43] "POST /api/compare HTTP/1.1" 200 -
+2026-03-23 14:44:47,453 - werkzeug - INFO - 127.0.0.1 - - [23/Mar/2026 14:44:47] "OPTIONS /api/recommendations HTTP/1.1" 200 -
+2026-03-23 14:44:47,463 - __main__ - INFO - Received preferences: {'temp_range': [10, 40], 'max_aqi': 150, 'min_safety': 70}
+2026-03-23 14:44:47,481 - __main__ - INFO - Latest data shape: (5, 9)
+2026-03-23 14:44:47,492 - __main__ - INFO - Latest data:
+      city  temp_max  aqi  safety_score
+47  Mumbai      30.5   80            84
+35  Manali      10.2   22            82
+34     Goa      32.8   40            88
+33   Delhi      22.8  135            76
+59  Jaipur      24.8  120            79
+2026-03-23 14:44:47,499 - __main__ - INFO - Generated 5 recommendations
+2026-03-23 14:44:47,499 - werkzeug - INFO - 127.0.0.1 - - [23/Mar/2026 14:44:47] "POST /api/recommendations HTTP/1.1" 200 -
+2026-03-23 14:45:36,806 - __main__ - INFO - Retrieved 5 cities
+2026-03-23 14:45:36,807 - werkzeug - INFO - 127.0.0.1 - - [23/Mar/2026 14:45:36] "GET /api/cities HTTP/1.1" 200 -
+2026-03-23 14:45:36,819 - __main__ - INFO - Using most recent data for Delhi (requested 2026-03-23)
+2026-03-23 14:45:36,820 - __main__ - INFO - Calculated scores for Delhi on 2026-03-23
+2026-03-23 14:45:36,821 - werkzeug - INFO - 127.0.0.1 - - [23/Mar/2026 14:45:36] "GET /api/city/Delhi/score?date=2026-03-23 HTTP/1.1" 200 -
+2026-03-23 14:45:36,845 - __main__ - INFO - Retrieved monthly data for Delhi
+2026-03-23 14:45:36,846 - werkzeug - INFO - 127.0.0.1 - - [23/Mar/2026 14:45:36] "GET /api/city/Delhi/monthly HTTP/1.1" 200 -
+2026-03-23 14:45:36,902 - __main__ - INFO - Retrieved 3 attractions for Delhi
+2026-03-23 14:45:36,903 - werkzeug - INFO - 127.0.0.1 - - [23/Mar/2026 14:45:36] "GET /api/city/Delhi/attractions HTTP/1.1" 200 -
+2026-03-23 14:45:57,016 - __main__ - INFO - Using most recent data for Mumbai (requested 2026-03-23)
+2026-03-23 14:45:57,017 - __main__ - INFO - Calculated scores for Mumbai on 2026-03-23
+2026-03-23 14:45:57,017 - werkzeug - INFO - 127.0.0.1 - - [23/Mar/2026 14:45:57] "GET /api/city/Mumbai/score?date=2026-03-23 HTTP/1.1" 200 -
+2026-03-23 14:45:57,037 - __main__ - INFO - Retrieved monthly data for Mumbai
+2026-03-23 14:45:57,038 - werkzeug - INFO - 127.0.0.1 - - [23/Mar/2026 14:45:57] "GET /api/city/Mumbai/monthly HTTP/1.1" 200 -
+2026-03-23 14:45:57,069 - __main__ - INFO - Retrieved 3 attractions for Mumbai
+2026-03-23 14:45:57,070 - werkzeug - INFO - 127.0.0.1 - - [23/Mar/2026 14:45:57] "GET /api/city/Mumbai/attractions HTTP/1.1" 200 -
+2026-03-23 16:16:15,049 - __main__ - INFO - Retrieved 5 cities
+2026-03-23 16:16:15,051 - werkzeug - INFO - 127.0.0.1 - - [23/Mar/2026 16:16:15] "GET /api/cities HTTP/1.1" 200 -
+2026-03-23 16:16:15,082 - __main__ - INFO - Using most recent data for Delhi (requested 2026-03-23)
+2026-03-23 16:16:15,084 - __main__ - INFO - Calculated scores for Delhi on 2026-03-23
+2026-03-23 16:16:15,086 - werkzeug - INFO - 127.0.0.1 - - [23/Mar/2026 16:16:15] "GET /api/city/Delhi/score?date=2026-03-23 HTTP/1.1" 200 -
+2026-03-23 16:16:15,135 - __main__ - INFO - Retrieved monthly data for Delhi
+2026-03-23 16:16:15,137 - werkzeug - INFO - 127.0.0.1 - - [23/Mar/2026 16:16:15] "GET /api/city/Delhi/monthly HTTP/1.1" 200 -
+2026-03-23 16:16:15,286 - __main__ - INFO - Retrieved 3 attractions for Delhi
+2026-03-23 16:16:15,288 - werkzeug - INFO - 127.0.0.1 - - [23/Mar/2026 16:16:15] "GET /api/city/Delhi/attractions HTTP/1.1" 200 -
+2026-03-23 16:16:25,509 - __main__ - INFO - Using most recent data for Manali (requested 2026-03-23)
+2026-03-23 16:16:25,511 - __main__ - INFO - Calculated scores for Manali on 2026-03-23
+2026-03-23 16:16:25,513 - werkzeug - INFO - 127.0.0.1 - - [23/Mar/2026 16:16:25] "GET /api/city/Manali/score?date=2026-03-23 HTTP/1.1" 200 -
+2026-03-23 16:16:25,566 - __main__ - INFO - Retrieved monthly data for Manali
+2026-03-23 16:16:25,568 - werkzeug - INFO - 127.0.0.1 - - [23/Mar/2026 16:16:25] "GET /api/city/Manali/monthly HTTP/1.1" 200 -
+2026-03-23 16:16:25,648 - __main__ - INFO - Retrieved 3 attractions for Manali
+2026-03-23 16:16:25,650 - werkzeug - INFO - 127.0.0.1 - - [23/Mar/2026 16:16:25] "GET /api/city/Manali/attractions HTTP/1.1" 200 -
+2026-03-23 16:16:38,159 - werkzeug - INFO - 127.0.0.1 - - [23/Mar/2026 16:16:38] "OPTIONS /api/compare HTTP/1.1" 200 -
+2026-03-23 16:16:38,190 - __main__ - INFO - Compared 2 cities
+2026-03-23 16:16:38,191 - werkzeug - INFO - 127.0.0.1 - - [23/Mar/2026 16:16:38] "POST /api/compare HTTP/1.1" 200 -
+2026-05-04 11:33:51,081 - __main__ - INFO - Loaded 60 rows from C:\Users\LENOVO\Desktop\Tourism_Dashboard\Tourism_Dashboard\Backened\api\..\weather_aqi_data.csv
+2026-05-04 11:33:51,250 - __main__ - INFO - Pre-computed monthly data for 5 cities
+2026-05-04 11:33:51,319 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5001
+2026-05-04 11:33:51,320 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-05-04 11:33:51,324 - werkzeug - INFO -  * Restarting with stat
+2026-05-04 11:34:19,304 - __main__ - INFO - Loaded 60 rows from C:\Users\LENOVO\Desktop\Tourism_Dashboard\Tourism_Dashboard\Backened\api\..\weather_aqi_data.csv
+2026-05-04 11:34:19,356 - __main__ - INFO - Pre-computed monthly data for 5 cities
+2026-05-04 11:34:19,389 - werkzeug - WARNING -  * Debugger is active!
+2026-05-04 11:34:19,400 - werkzeug - INFO -  * Debugger PIN: 141-012-975
+2026-05-23 21:52:31,116 - Tourism_Dashboard.Backened.api.app - INFO - Resolved DATA_FILE: C:\Users\LENOVO\Desktop\Tourism_Dashboard\Tourism_Dashboard\Backened\weather_aqi_data.csv
+2026-05-23 21:52:31,118 - Tourism_Dashboard.Backened.api.app - INFO - Loaded 240 rows from C:\Users\LENOVO\Desktop\Tourism_Dashboard\Tourism_Dashboard\Backened\weather_aqi_data.csv
+2026-05-23 21:52:31,188 - Tourism_Dashboard.Backened.api.app - INFO - Pre-computed monthly data for 11 cities
+2026-05-23 21:53:31,306 - __main__ - INFO - Resolved DATA_FILE: C:\Users\LENOVO\Desktop\Tourism_Dashboard\Tourism_Dashboard\Backened\weather_aqi_data.csv
+2026-05-23 21:53:31,311 - __main__ - INFO - Loaded 240 rows from C:\Users\LENOVO\Desktop\Tourism_Dashboard\Tourism_Dashboard\Backened\weather_aqi_data.csv
+2026-05-23 21:53:31,358 - __main__ - INFO - Pre-computed monthly data for 11 cities
+2026-05-23 21:53:31,395 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5001
+2026-05-23 21:53:31,395 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-05-23 21:53:31,402 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2026-05-23 21:53:59,592 - __main__ - INFO - Resolved DATA_FILE: C:\Users\LENOVO\Desktop\Tourism_Dashboard\Tourism_Dashboard\Backened\weather_aqi_data.csv
+2026-05-23 21:53:59,592 - __main__ - INFO - Loaded 240 rows from C:\Users\LENOVO\Desktop\Tourism_Dashboard\Tourism_Dashboard\Backened\weather_aqi_data.csv
+2026-05-23 21:53:59,642 - __main__ - INFO - Pre-computed monthly data for 11 cities
+2026-05-23 21:53:59,665 - werkzeug - WARNING -  * Debugger is active!
+2026-05-23 21:53:59,670 - werkzeug - INFO -  * Debugger PIN: 146-044-657
+2026-05-23 21:57:26,516 - __main__ - INFO - Resolved DATA_FILE: C:\Users\LENOVO\Desktop\Tourism_Dashboard\Tourism_Dashboard\Backened\weather_aqi_data.csv
+2026-05-23 21:57:26,519 - __main__ - INFO - Loaded 240 rows from C:\Users\LENOVO\Desktop\Tourism_Dashboard\Tourism_Dashboard\Backened\weather_aqi_data.csv
+2026-05-23 21:57:26,587 - __main__ - INFO - Pre-computed monthly data for 11 cities
+2026-05-23 21:57:26,613 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5001
+2026-05-23 21:57:26,613 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-05-23 21:57:26,615 - werkzeug - INFO -  * Restarting with stat
+2026-05-23 21:57:52,409 - __main__ - INFO - Resolved DATA_FILE: C:\Users\LENOVO\Desktop\Tourism_Dashboard\Tourism_Dashboard\Backened\weather_aqi_data.csv
+2026-05-23 21:57:52,412 - __main__ - INFO - Loaded 240 rows from C:\Users\LENOVO\Desktop\Tourism_Dashboard\Tourism_Dashboard\Backened\weather_aqi_data.csv
+2026-05-23 21:57:52,475 - __main__ - INFO - Pre-computed monthly data for 11 cities
+2026-05-23 21:57:52,490 - werkzeug - WARNING -  * Debugger is active!
+2026-05-23 21:57:52,495 - werkzeug - INFO -  * Debugger PIN: 141-012-975
+2026-05-23 21:59:05,561 - werkzeug - INFO -  * Detected change in 'C:\\Users\\LENOVO\\Desktop\\Tourism_Dashboard\\Tourism_Dashboard\\Backened\\api\\app.py', reloading
+2026-05-23 21:59:05,562 - werkzeug - INFO -  * Detected change in 'C:\\Users\\LENOVO\\Desktop\\Tourism_Dashboard\\Tourism_Dashboard\\Backened\\api\\app.py', reloading
+2026-05-23 21:59:05,563 - werkzeug - INFO -  * Detected change in 'C:\\Users\\LENOVO\\Desktop\\Tourism_Dashboard\\Tourism_Dashboard\\Backened\\api\\app.py', reloading
+2026-05-23 21:59:06,242 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2026-05-23 21:59:06,499 - werkzeug - INFO -  * Detected change in 'C:\\Users\\LENOVO\\Desktop\\Tourism_Dashboard\\Tourism_Dashboard\\Backened\\api\\app.py', reloading
+2026-05-23 21:59:06,812 - werkzeug - INFO -  * Restarting with stat
+2026-05-23 21:59:27,253 - __main__ - INFO - Resolved DATA_FILE: C:\Users\LENOVO\Desktop\Tourism_Dashboard\Tourism_Dashboard\Backened\weather_aqi_data.csv
+2026-05-23 21:59:27,257 - __main__ - INFO - Loaded 240 rows from C:\Users\LENOVO\Desktop\Tourism_Dashboard\Tourism_Dashboard\Backened\weather_aqi_data.csv
+2026-05-23 21:59:27,329 - __main__ - INFO - Pre-computed monthly data for 11 cities
+2026-05-23 21:59:27,342 - werkzeug - WARNING -  * Debugger is active!
+2026-05-23 21:59:27,346 - werkzeug - INFO -  * Debugger PIN: 146-044-657
+2026-05-23 21:59:36,356 - __main__ - INFO - Resolved DATA_FILE: C:\Users\LENOVO\Desktop\Tourism_Dashboard\Tourism_Dashboard\Backened\weather_aqi_data.csv
+2026-05-23 21:59:36,360 - __main__ - INFO - Loaded 240 rows from C:\Users\LENOVO\Desktop\Tourism_Dashboard\Tourism_Dashboard\Backened\weather_aqi_data.csv
+2026-05-23 21:59:36,426 - __main__ - INFO - Pre-computed monthly data for 11 cities
+2026-05-23 21:59:36,443 - werkzeug - WARNING -  * Debugger is active!
+2026-05-23 21:59:36,447 - werkzeug - INFO -  * Debugger PIN: 141-012-975
+2026-05-23 22:20:19,238 - werkzeug - INFO -  * Detected change in 'C:\\Users\\LENOVO\\Desktop\\Tourism_Dashboard\\Tourism_Dashboard\\Backened\\api\\app.py', reloading
+2026-05-23 22:20:19,269 - werkzeug - INFO -  * Detected change in 'C:\\Users\\LENOVO\\Desktop\\Tourism_Dashboard\\Tourism_Dashboard\\Backened\\api\\app.py', reloading
+2026-05-23 22:20:26,023 - werkzeug - INFO -  * Restarting with stat
+2026-05-23 22:20:28,838 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2026-05-23 22:20:51,555 - __main__ - INFO - Resolved DATA_FILE: C:\Users\LENOVO\Desktop\Tourism_Dashboard\Tourism_Dashboard\Backened\weather_aqi_data.csv
+2026-05-23 22:20:51,562 - __main__ - INFO - Loaded 241 rows from C:\Users\LENOVO\Desktop\Tourism_Dashboard\Tourism_Dashboard\Backened\weather_aqi_data.csv
+2026-05-23 22:20:51,678 - __main__ - INFO - Pre-computed monthly data for 11 cities
+2026-05-23 22:20:51,728 - werkzeug - WARNING -  * Debugger is active!
+2026-05-23 22:20:51,741 - werkzeug - INFO -  * Debugger PIN: 141-012-975
+2026-05-23 22:20:57,581 - __main__ - INFO - Resolved DATA_FILE: C:\Users\LENOVO\Desktop\Tourism_Dashboard\Tourism_Dashboard\Backened\weather_aqi_data.csv
+2026-05-23 22:20:57,585 - __main__ - INFO - Loaded 241 rows from C:\Users\LENOVO\Desktop\Tourism_Dashboard\Tourism_Dashboard\Backened\weather_aqi_data.csv
+2026-05-23 22:20:57,668 - __main__ - INFO - Pre-computed monthly data for 11 cities
+2026-05-23 22:20:57,669 - werkzeug - WARNING -  * Debugger is active!
+2026-05-23 22:20:57,683 - werkzeug - INFO -  * Debugger PIN: 146-044-657
+2026-05-23 22:21:28,687 - werkzeug - INFO -  * Detected change in 'C:\\Users\\LENOVO\\Desktop\\Tourism_Dashboard\\Tourism_Dashboard\\Backened\\api\\app.py', reloading
+2026-05-23 22:21:28,689 - werkzeug - INFO -  * Detected change in 'C:\\Users\\LENOVO\\Desktop\\Tourism_Dashboard\\Tourism_Dashboard\\Backened\\api\\app.py', reloading
+2026-05-23 22:21:29,083 - werkzeug - INFO -  * Detected change in 'C:\\Users\\LENOVO\\Desktop\\Tourism_Dashboard\\Tourism_Dashboard\\Backened\\api\\app.py', reloading
+2026-05-23 22:21:29,159 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2026-05-23 22:21:29,476 - werkzeug - INFO -  * Restarting with stat
+2026-05-23 22:21:54,529 - __main__ - INFO - Resolved DATA_FILE: C:\Users\LENOVO\Desktop\Tourism_Dashboard\Tourism_Dashboard\Backened\weather_aqi_data.csv
+2026-05-23 22:21:54,535 - __main__ - INFO - Loaded 241 rows from C:\Users\LENOVO\Desktop\Tourism_Dashboard\Tourism_Dashboard\Backened\weather_aqi_data.csv
+2026-05-23 22:21:54,619 - __main__ - INFO - Pre-computed monthly data for 11 cities
+2026-05-23 22:21:54,636 - werkzeug - WARNING -  * Debugger is active!
+2026-05-23 22:21:54,636 - werkzeug - INFO -  * Debugger PIN: 146-044-657
+2026-05-23 22:21:57,773 - __main__ - INFO - Resolved DATA_FILE: C:\Users\LENOVO\Desktop\Tourism_Dashboard\Tourism_Dashboard\Backened\weather_aqi_data.csv
+2026-05-23 22:21:57,777 - __main__ - INFO - Loaded 241 rows from C:\Users\LENOVO\Desktop\Tourism_Dashboard\Tourism_Dashboard\Backened\weather_aqi_data.csv
+2026-05-23 22:21:57,876 - __main__ - INFO - Pre-computed monthly data for 11 cities
+2026-05-23 22:21:57,897 - werkzeug - WARNING -  * Debugger is active!
+2026-05-23 22:21:57,904 - werkzeug - INFO -  * Debugger PIN: 141-012-975
+2026-05-23 22:22:44,961 - werkzeug - INFO -  * Detected change in 'C:\\Users\\LENOVO\\Desktop\\Tourism_Dashboard\\Tourism_Dashboard\\Backened\\api\\app.py', reloading
+2026-05-23 22:22:45,009 - werkzeug - INFO -  * Detected change in 'C:\\Users\\LENOVO\\Desktop\\Tourism_Dashboard\\Tourism_Dashboard\\Backened\\api\\app.py', reloading
+2026-05-23 22:22:45,123 - werkzeug - INFO -  * Detected change in 'C:\\Users\\LENOVO\\Desktop\\Tourism_Dashboard\\Tourism_Dashboard\\Backened\\api\\app.py', reloading
+2026-05-23 22:22:45,450 - werkzeug - INFO -  * Restarting with stat
+2026-05-23 22:22:46,971 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2026-05-23 22:23:07,351 - __main__ - INFO - Resolved DATA_FILE: C:\Users\LENOVO\Desktop\Tourism_Dashboard\Tourism_Dashboard\Backened\weather_aqi_data.csv
+2026-05-23 22:23:07,361 - __main__ - INFO - Loaded 241 rows from C:\Users\LENOVO\Desktop\Tourism_Dashboard\Tourism_Dashboard\Backened\weather_aqi_data.csv
+2026-05-23 22:23:07,472 - __main__ - INFO - Pre-computed monthly data for 11 cities
+2026-05-23 22:23:07,492 - werkzeug - WARNING -  * Debugger is active!
+2026-05-23 22:23:07,498 - werkzeug - INFO -  * Debugger PIN: 141-012-975
+2026-05-23 22:23:09,120 - __main__ - INFO - Resolved DATA_FILE: C:\Users\LENOVO\Desktop\Tourism_Dashboard\Tourism_Dashboard\Backened\weather_aqi_data.csv
+2026-05-23 22:23:09,127 - __main__ - INFO - Loaded 241 rows from C:\Users\LENOVO\Desktop\Tourism_Dashboard\Tourism_Dashboard\Backened\weather_aqi_data.csv
+2026-05-23 22:23:09,298 - __main__ - INFO - Pre-computed monthly data for 11 cities
+2026-05-23 22:23:09,360 - werkzeug - WARNING -  * Debugger is active!
+2026-05-23 22:23:09,373 - werkzeug - INFO -  * Debugger PIN: 146-044-657
+2026-05-23 22:23:50,296 - werkzeug - INFO -  * Detected change in 'C:\\Users\\LENOVO\\Desktop\\Tourism_Dashboard\\Tourism_Dashboard\\Backened\\api\\app.py', reloading
+2026-05-23 22:23:50,299 - werkzeug - INFO -  * Detected change in 'C:\\Users\\LENOVO\\Desktop\\Tourism_Dashboard\\Tourism_Dashboard\\Backened\\api\\app.py', reloading
+2026-05-23 22:23:50,535 - werkzeug - INFO -  * Detected change in 'C:\\Users\\LENOVO\\Desktop\\Tourism_Dashboard\\Tourism_Dashboard\\Backened\\api\\app.py', reloading
+2026-05-23 22:23:50,877 - werkzeug - INFO -  * Restarting with stat
+2026-05-23 22:23:50,953 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2026-05-23 22:24:15,930 - __main__ - INFO - Resolved DATA_FILE: C:\Users\LENOVO\Desktop\Tourism_Dashboard\Tourism_Dashboard\Backened\weather_aqi_data.csv
+2026-05-23 22:24:15,937 - __main__ - INFO - Loaded 132 rows from C:\Users\LENOVO\Desktop\Tourism_Dashboard\Tourism_Dashboard\Backened\weather_aqi_data.csv
+2026-05-23 22:24:16,135 - __main__ - INFO - Pre-computed monthly data for 11 cities
+2026-05-23 22:24:16,171 - werkzeug - WARNING -  * Debugger is active!
+2026-05-23 22:24:16,185 - werkzeug - INFO -  * Debugger PIN: 141-012-975
+2026-05-23 22:24:18,104 - __main__ - INFO - Resolved DATA_FILE: C:\Users\LENOVO\Desktop\Tourism_Dashboard\Tourism_Dashboard\Backened\weather_aqi_data.csv
+2026-05-23 22:24:18,104 - __main__ - INFO - Loaded 132 rows from C:\Users\LENOVO\Desktop\Tourism_Dashboard\Tourism_Dashboard\Backened\weather_aqi_data.csv
+2026-05-23 22:24:18,204 - __main__ - INFO - Pre-computed monthly data for 11 cities
+2026-05-23 22:24:18,218 - werkzeug - WARNING -  * Debugger is active!
+2026-05-23 22:24:18,225 - werkzeug - INFO -  * Debugger PIN: 146-044-657
+2026-05-23 22:27:54,674 - werkzeug - INFO -  * Detected change in 'C:\\Users\\LENOVO\\Desktop\\Tourism_Dashboard\\Tourism_Dashboard\\Backened\\services\\aggregation_service.py', reloading
+2026-05-23 22:27:55,647 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2026-05-23 22:28:04,670 - werkzeug - INFO -  * Detected change in 'C:\\Users\\LENOVO\\Desktop\\Tourism_Dashboard\\Tourism_Dashboard\\Backened\\api\\app.py', reloading
+2026-05-23 22:28:04,878 - werkzeug - INFO -  * Restarting with stat
+2026-05-23 22:28:20,425 - __main__ - INFO - Resolved DATA_FILE: C:\Users\LENOVO\Desktop\Tourism_Dashboard\Tourism_Dashboard\Backened\weather_aqi_data.csv
+2026-05-23 22:28:20,427 - __main__ - INFO - Loaded 132 rows from C:\Users\LENOVO\Desktop\Tourism_Dashboard\Tourism_Dashboard\Backened\weather_aqi_data.csv
+2026-05-23 22:28:20,491 - __main__ - INFO - Pre-computed monthly data for 11 cities
+2026-05-23 22:28:20,493 - werkzeug - WARNING -  * Debugger is active!
+2026-05-23 22:28:20,504 - werkzeug - INFO -  * Debugger PIN: 146-044-657
+2026-05-23 22:28:33,860 - __main__ - INFO - Resolved DATA_FILE: C:\Users\LENOVO\Desktop\Tourism_Dashboard\Tourism_Dashboard\Backened\weather_aqi_data.csv
+2026-05-23 22:28:33,874 - __main__ - INFO - Loaded 132 rows from C:\Users\LENOVO\Desktop\Tourism_Dashboard\Tourism_Dashboard\Backened\weather_aqi_data.csv
+2026-05-23 22:28:33,953 - __main__ - INFO - Pre-computed monthly data for 11 cities
+2026-05-23 22:28:33,970 - werkzeug - WARNING -  * Debugger is active!
+2026-05-23 22:28:33,974 - werkzeug - INFO -  * Debugger PIN: 141-012-975
+2026-05-25 14:49:09,684 - __main__ - INFO - Resolved DATA_FILE: c:\Users\LENOVO\Desktop\Tourism_Dashboard\Tourism_Dashboard\Backened\weather_aqi_data.csv
+2026-05-25 14:49:09,718 - __main__ - INFO - Loaded 132 rows from c:\Users\LENOVO\Desktop\Tourism_Dashboard\Tourism_Dashboard\Backened\weather_aqi_data.csv
+2026-05-25 14:49:09,929 - __main__ - INFO - Pre-computed monthly data for 11 cities
+2026-05-25 14:49:10,052 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5001
+2026-05-25 14:49:10,052 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-05-25 14:49:10,057 - werkzeug - INFO -  * Restarting with stat
+2026-05-25 14:49:38,901 - __main__ - INFO - Resolved DATA_FILE: c:\Users\LENOVO\Desktop\Tourism_Dashboard\Tourism_Dashboard\Backened\weather_aqi_data.csv
+2026-05-25 14:49:38,907 - __main__ - INFO - Loaded 132 rows from c:\Users\LENOVO\Desktop\Tourism_Dashboard\Tourism_Dashboard\Backened\weather_aqi_data.csv
+2026-05-25 14:49:39,049 - __main__ - INFO - Pre-computed monthly data for 11 cities
+2026-05-25 14:49:39,085 - werkzeug - WARNING -  * Debugger is active!
+2026-05-25 14:49:39,098 - werkzeug - INFO -  * Debugger PIN: 141-012-975
+2026-05-25 14:49:43,786 - __main__ - INFO - Retrieved 11 cities from memory
+2026-05-25 14:49:43,789 - werkzeug - INFO - 127.0.0.1 - - [25/May/2026 14:49:43] "GET /api/cities HTTP/1.1" 200 -
+2026-05-25 14:49:43,807 - __main__ - INFO - Using most recent data for Ahmedabad (requested 2026-05-25)
+2026-05-25 14:49:43,811 - __main__ - INFO - Calculated scores for Ahmedabad on 2026-05-25
+2026-05-25 14:49:43,815 - werkzeug - INFO - 127.0.0.1 - - [25/May/2026 14:49:43] "GET /api/city/Ahmedabad/score?date=2026-05-25 HTTP/1.1" 200 -
+2026-05-25 14:49:43,837 - __main__ - INFO - Retrieved monthly data for Ahmedabad
+2026-05-25 14:49:43,839 - werkzeug - INFO - 127.0.0.1 - - [25/May/2026 14:49:43] "GET /api/city/Ahmedabad/monthly HTTP/1.1" 200 -
+2026-05-25 14:49:44,007 - __main__ - INFO - Retrieved 3 attractions for Ahmedabad
+2026-05-25 14:49:44,008 - werkzeug - INFO - 127.0.0.1 - - [25/May/2026 14:49:44] "GET /api/city/Ahmedabad/attractions HTTP/1.1" 200 -
+2026-05-25 14:49:45,892 - werkzeug - INFO - 127.0.0.1 - - [25/May/2026 14:49:45] "GET / HTTP/1.1" 200 -
+2026-05-25 14:49:46,882 - __main__ - WARNING - Not found: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2026-05-25 14:49:46,885 - werkzeug - INFO - 127.0.0.1 - - [25/May/2026 14:49:46] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-05-25 14:50:06,515 - __main__ - INFO - Retrieved 11 cities from memory
+2026-05-25 14:50:06,516 - werkzeug - INFO - 127.0.0.1 - - [25/May/2026 14:50:06] "GET /api/cities HTTP/1.1" 200 -
+2026-05-25 14:50:06,653 - __main__ - INFO - Using most recent data for Ahmedabad (requested 2026-05-25)
+2026-05-25 14:50:06,655 - __main__ - INFO - Retrieved monthly data for Ahmedabad
+2026-05-25 14:50:06,656 - __main__ - INFO - Calculated scores for Ahmedabad on 2026-05-25
+2026-05-25 14:50:06,657 - werkzeug - INFO - 127.0.0.1 - - [25/May/2026 14:50:06] "GET /api/city/Ahmedabad/monthly HTTP/1.1" 200 -
+2026-05-25 14:50:06,658 - werkzeug - INFO - 127.0.0.1 - - [25/May/2026 14:50:06] "GET /api/city/Ahmedabad/score?date=2026-05-25 HTTP/1.1" 200 -
+2026-05-25 14:50:06,953 - __main__ - INFO - Retrieved 3 attractions for Ahmedabad
+2026-05-25 14:50:06,953 - werkzeug - INFO - 127.0.0.1 - - [25/May/2026 14:50:06] "GET /api/city/Ahmedabad/attractions HTTP/1.1" 200 -
+2026-05-25 14:57:27,965 - __main__ - INFO - Using most recent data for Bangalore (requested 2026-05-25)
+2026-05-25 14:57:27,966 - __main__ - INFO - Calculated scores for Bangalore on 2026-05-25
+2026-05-25 14:57:27,969 - werkzeug - INFO - 127.0.0.1 - - [25/May/2026 14:57:27] "GET /api/city/Bangalore/score?date=2026-05-25 HTTP/1.1" 200 -
+2026-05-25 14:57:27,985 - __main__ - INFO - Retrieved monthly data for Bangalore
+2026-05-25 14:57:27,987 - werkzeug - INFO - 127.0.0.1 - - [25/May/2026 14:57:27] "GET /api/city/Bangalore/monthly HTTP/1.1" 200 -
+2026-05-25 14:57:28,035 - __main__ - INFO - Retrieved 3 attractions for Bangalore
+2026-05-25 14:57:28,036 - werkzeug - INFO - 127.0.0.1 - - [25/May/2026 14:57:28] "GET /api/city/Bangalore/attractions HTTP/1.1" 200 -
+2026-05-25 14:58:12,098 - werkzeug - INFO - 127.0.0.1 - - [25/May/2026 14:58:12] "OPTIONS /api/compare HTTP/1.1" 200 -
+2026-05-25 14:58:12,112 - __main__ - INFO - Compared 3 cities
+2026-05-25 14:58:12,113 - werkzeug - INFO - 127.0.0.1 - - [25/May/2026 14:58:12] "POST /api/compare HTTP/1.1" 200 -
+2026-05-25 14:58:27,730 - werkzeug - INFO - 127.0.0.1 - - [25/May/2026 14:58:27] "OPTIONS /api/recommendations HTTP/1.1" 200 -
+2026-05-25 14:58:27,735 - __main__ - INFO - Received preferences: {'temp_range': [10, 40], 'max_aqi': 150, 'min_safety': 70}
+2026-05-25 14:58:27,746 - __main__ - INFO - Latest data shape: (11, 9)
+2026-05-25 14:58:27,762 - __main__ - INFO - Latest data:
+          city   temp_max         aqi  safety_score
+11   Ahmedabad  27.051571  131.532258     63.509677
+71   Hyderabad  27.100596  149.875000     58.210000
+47       Delhi  22.800000  135.000000     76.000000
+35     Chennai  27.350024  129.458333     63.856667
+107     Manali  10.200000   22.000000     82.000000
+119     Mumbai  30.500000   80.000000     84.000000
+95     Kolkata  27.181805  138.000000     61.463333
+59         Goa  32.800000   40.000000     88.000000
+23   Bangalore  27.413831  132.083333     63.216667
+83      Jaipur  24.800000  120.000000     79.000000
+131       Pune  26.651046  141.791667     60.486667
+2026-05-25 14:58:27,767 - __main__ - INFO - Generated 5 recommendations
+2026-05-25 14:58:27,768 - werkzeug - INFO - 127.0.0.1 - - [25/May/2026 14:58:27] "POST /api/recommendations HTTP/1.1" 200 -
+2026-05-25 14:59:05,929 - __main__ - INFO - Retrieved 11 cities from memory
+2026-05-25 14:59:05,930 - werkzeug - INFO - 127.0.0.1 - - [25/May/2026 14:59:05] "GET /api/cities HTTP/1.1" 200 -
+2026-05-25 14:59:05,943 - __main__ - INFO - Using most recent data for Ahmedabad (requested 2026-05-25)
+2026-05-25 14:59:05,963 - __main__ - INFO - Retrieved monthly data for Ahmedabad
+2026-05-25 14:59:05,964 - __main__ - INFO - Calculated scores for Ahmedabad on 2026-05-25
+2026-05-25 14:59:05,965 - werkzeug - INFO - 127.0.0.1 - - [25/May/2026 14:59:05] "GET /api/city/Ahmedabad/monthly HTTP/1.1" 200 -
+2026-05-25 14:59:05,966 - werkzeug - INFO - 127.0.0.1 - - [25/May/2026 14:59:05] "GET /api/city/Ahmedabad/score?date=2026-05-25 HTTP/1.1" 200 -
+2026-05-25 14:59:06,027 - __main__ - INFO - Retrieved 3 attractions for Ahmedabad
+2026-05-25 14:59:06,028 - werkzeug - INFO - 127.0.0.1 - - [25/May/2026 14:59:06] "GET /api/city/Ahmedabad/attractions HTTP/1.1" 200 -
